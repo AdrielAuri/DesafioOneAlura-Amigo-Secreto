@@ -30,3 +30,19 @@ function adicionarLista(){
        lista.innerHTML += `<li>${listaAmigos[i]}</li>`;
    }
 }
+
+function sortearAmigo(){
+
+   if(listaAmigos.length == 0){
+       alert("A lista de nomes está vazia.");
+       return;
+   }
+   let numeroSorteado = Math.floor(Math.random() * listaAmigos.length);
+   let amigoSorteado = listaAmigos[numeroSorteado];
+   listaAmigos.splice(numeroSorteado, 1); //splice é um método que remove o elemento de um array pelo indice
+
+   adicionarLista();
+
+   let resultado = document.querySelector('#resultado');
+   resultado.innerHTML = 'Nome sorteado: ' + amigoSorteado;
+}
