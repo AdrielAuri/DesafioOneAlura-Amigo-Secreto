@@ -20,3 +20,13 @@ function verificarNome(){
        alert("Por favor, insira um nome no campo indicado.");
    } 
 }
+
+function adicionarLista(){
+
+   let lista = document.querySelector('#listaAmigos');
+   lista.innerHTML = "";
+
+   for(let i = 0; i < listaAmigos.length; i++){
+       lista.innerHTML += `<li>${listaAmigos[i]}</li>`;
+   }
+}
