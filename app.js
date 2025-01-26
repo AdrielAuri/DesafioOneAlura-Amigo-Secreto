@@ -14,3 +14,9 @@ function adicionarAmigo(){
      } 
 }
 
+function verificarNome(){
+   //trim é um método que remove espaços desnecessários de uma string como o começo e final de uma palavra ou frase
+   if(nomeAmigo.trim() == ""){
+       alert("Por favor, insira um nome no campo indicado.");
+   } 
+}
