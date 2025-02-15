@@ -4,7 +4,7 @@
 <p>Projeto feito com base em lógica de programação da plataforma Alura em parceria com a Oracle Next Education.<br><br>- funcionamento -<br>Para realizar o sorteio, é necessário preencher a lista com nomes no campo indicado. Caso o usuário tente adicionar
   um nome enquanto o campo estiver vazio, um alerta será exibido indicando que o campo precisa ser preenchido.<br><br>A mesma lógica se aplica no caso de o usuário tentar
   sortear nomes sem ter preenchido a lista.<br><br>Após o usuário adicionar nomes à lista, será possível realizar o sorteio. Vale ressaltar que, quando um nome é selecionado, ele não poderá ser sorteado novamente, 
-  pois será removido da lista automaticamente.</p>
+  pois será removido da lista automaticamente.<br><br>Link para o site do projeto: https://amigo-secreto-wheat-two.vercel.app/</p>
 
 
 ## 🚀 Tecnologias
